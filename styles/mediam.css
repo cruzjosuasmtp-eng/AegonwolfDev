@@ -366,7 +366,7 @@ height: auto;
     display: flex;
    overflow-x: auto;
       
-    width: 100%;
+    width: 90%;
     scroll-snap-type: x mandatory;
 }
 .photography-content::-webkit-scrollbar {
@@ -395,14 +395,15 @@ height: auto;
   background: #d4aa1f;
 }  
 .photography div{
-    min-width: 100%;
+    min-width: 80%;
     flex: 1 1 auto;
     scroll-snap-align: center;
 }
 .photography div img{
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 12px;
+    padding-bottom:20px;
 }
 .photography-content div:nth-child(2)::before,.photography-content div:last-child::before,.photography-content div:first-child::before{
     display: none;
