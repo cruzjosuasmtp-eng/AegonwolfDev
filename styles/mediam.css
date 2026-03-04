@@ -84,7 +84,7 @@
   position: fixed;
   z-index: 9999;
   top: 13%;
-  left:-19.9% ;
+  left:-20% ;
   transition: all .3s linear;
   border: 1px solid var(--lite-glass-bg);
   border-left: none;
