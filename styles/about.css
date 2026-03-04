@@ -1,0 +1,116 @@
+.initial-content{
+  height: 100vh;
+  width: 100%;
+  background-color:var(--accent-background);
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.tagline{
+    height: 80%;
+    width: 100%;
+    background-image: url(../images/pyr.png);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.books-wrapper{
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    padding: 40px;
+
+
+}
+.tagline h2{
+    color: var(--font-primary-color);
+     font-size: clamp(1.8rem, 10vw, 5rem);
+     font-weight: bolder;
+}
+.books{
+    padding: 0 10px;
+    width: 80%;
+    height: auto;
+    animation: slide 10s infinite linear;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+   
+}
+.books:hover .boxb:not(:hover){
+    filter: grayscale(80%);
+    opacity: .5;
+    -webkit-filter: grayscale(80%);
+}
+.boxb{
+     transition: all .3s ease-in-out;
+}
+.boxb:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    scale: 1.2;
+    -webkit-filter: grayscale(0);
+}
+.books img{
+    height: 300px;
+    width: 100%;
+    
+    
+}
+@media screen and (max-width:768px){
+    .tagline{
+    height: 80%;
+    width: 100%;
+    background-image: url(../images/pyr.png);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.books-wrapper{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    padding: 40px;
+
+
+}
+.books-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.tagline h2{
+    color: var(--font-primary-color);
+     font-size: clamp(1.8rem, 10vw, 5rem);
+     font-weight: bolder;
+}
+.books{
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+    animation: slide 10s infinite linear;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+}
+.books img{
+    height: 300px;
+    width: 100%;
+    
+    
+}
+}

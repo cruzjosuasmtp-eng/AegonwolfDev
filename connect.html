@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josua Cruz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/mediam.css">
+    <link rel="stylesheet" href="styles/anime.css">
+    <link rel="stylesheet" href="styles/mediai.css">
+    
+   
+    <link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+   <div class="modal1-wrapper">
+    <img src="icons/close.svg" alt="" class="closebtn" onclick="hidemodal()">
+    <div class="modal-contact">
+    <div>
+        <h1>Get in Touch</h1>
+        <h3>Josua Cruz</h3>
+    </div>
+    <div>
+        <form onsubmit="sendEmail(event)">
+            <textarea name="text" id="textmodal" placeholder="Input Text Here.."></textarea>
+            <button type="submit" id="emailbtn">Submit</button>
+        </form>
+    </div>
+    <div class="socials">
+        <img src="icons/insta-white.png" alt=""><img src="icons/linkedin-white.png" alt=""><img src="icons/whatsapp-white.png" alt="">
+    </div>
+ </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josua Cruz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/mediam.css">
+    <link rel="stylesheet" href="styles/anime.css">
+    <link rel="stylesheet" href="styles/mediai.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="connect.html">
+    <link rel="stylesheet" href="styles/project.css">
+     <link rel="stylesheet" href="connect.html">
+    <link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <button class="mobile-nav" onclick="showmenu()"><img src="icons/home.png" alt=""></button>
+        <div class="nav-wrapper">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>Josua Cruz</li>
+                    <li><a href="https://drive.google.com/file/d/1sWQbj-GsoUmji2o01pgohkt06Ooh88t4/view?usp=sharing" target="_blank">Resume</a></li>
+                    <li><button class="showm" onclick="showmodal()">Connect</button></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content">
+         
+           <h1 class="mobile-title">SAMPLE PROJECTS</h1>
+           
+        </div>
+    </div>
+  
+    <!--sidebar-->
+    <div>
+        <div class="sidebar">
+            <div>
+                
+                 <a href="index.html">
+                     <img src="icons/home.svg" alt="" width="40" height="auto">
+                    HOME
+                </a>
+            </div>
+            <div>
+                
+                 <a href="project.html"> <img src="icons/work.svg" alt="" width="40" height="auto">WORK</a>
+            </div>
+            <div>
+                
+                 <a > <img src="icons/connect.svg" alt="" width="40" height="auto" onclick="showmodal()">CONNECT</a>
+            </div>
+            <div>
+                 
+                 <a href="about.html"><img src="icons/about.svg" alt="" width="40" height="auto">ABOUT</a>
+            </div>
+            <div>
+                
+                <a href="https://drive.google.com/file/d/1sWQbj-GsoUmji2o01pgohkt06Ooh88t4/view?usp=sharing" target="_blank"><img src="icons/resume.svg" alt="" width="40" height="auto">RESUME</a>
+            </div>        
+           
+            
+            
+        </div>
+    </div>
+    <div class="initial-content">
+      <div class="tagline">
+        <video autoplay loop muted playsinline type="video/mp4" class="jc-vid" width="700px" height="auto" >
+            <source src="videos/jcs.mp4">
+        </video>
+      </div>
+    </div>
+   <!---text convert-->
+    <div class="container-item">
+    <div class="wrapper-item">
+         <h1>SIMPLE CONVERTER</h1>
+       <div class="custom-form">
+        
+          <div class="input-wrapper">
+             <label for="convert">TEXT CONVERTER</label>
+            <textarea name="" id="convert" rows="5" placeholder="Message"></textarea>
+          </div>
+          <p>Characters: <span id="charCount">0</span></p>
+          <div class="btn-wrapper">
+             <button class="lower" onclick="lower()">LOWERCASE</button>
+             <button class="capital" onclick="capital()">CAPITALIZE</button>
+             <button class="upper" onclick="upper()">UPPERCASE</button>
+              <button class="sentence" onclick="countChars()">CHARACTERS</button>
+             <button class="title" onclick="clearText()">CLEAR</button>
+             
+          </div>
+
+        </div>
+    </div>
+
+  </div>     
+   <!--Smaple projects-->
+  <div class="project-wrapper">
+     <div class="project-content">
+        <div class="imgpro-wrapper">
+             <h1>RESPONSIVE DESIGN</h1>
+        </div>
+        <div class="sample-wrapper">
+           
+            <video autoplay loop muted playsinline class="phone-vid">
+                <source src="videos/sample.mp4" type="video/mp4" >
+            </video>
+        </div>
+     </div>
+  </div>
+   <!---Contact Modal-->
+<div class="modal1-wrapper">
+    <img src="icons/close.svg" alt="" class="closebtn" onclick="showmodal()">
+    <div class="modal-contact">
+    <div>
+        <h1>Get in Touch</h1>
+        <h3>Josua Cruz</h3>
+    </div>
+    <div>
+        <form onsubmit="sendEmail(event)">
+            <textarea name="text" id="textmodal" placeholder="Input Text Here.."></textarea>
+            <button type="submit" id="emailbtn">Submit</button>
+        </form>
+    </div>
+    <div class="socials">
+        <img src="icons/insta-white.png" alt=""><img src="icons/linkedin-white.png" alt=""><img src="icons/whatsapp-white.png" alt="">
+    </div>
+ </div>
+
+</div>
+  <footer>
+    <div>
+        <div>
+            <video autoplay muted loop playsinline class="imgp">
+                <source src="videos/jcvid.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <h1>JOSUA CRUZ</h1>
+            <h3>FRONTEND DEVELOPER</h3>
+            <div>
+                <a href="index.html">HOME</a>
+                <a href="project.html">PROJECTS</a>
+                <button class="showm" onclick="showmodal()">Connect</button>
+            </div>
+            <div>
+                <a href="mailto:josuacruz9@gmail.com" target="_blank">josuacruz9@gmail.com</a>
+                <a href="+639524761254">+639524761254</a>
+            </div>
+        </div>
+
+    </div>
+  
+       
+  
+ </footer> 
+
+<script src="script.js" defer></script>
+</body>
+</html>

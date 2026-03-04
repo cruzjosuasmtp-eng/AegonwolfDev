@@ -1,0 +1,49 @@
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes pop {
+    0%{
+        opacity: 0;
+    }
+    50%{
+       opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes phone {
+    0%, 100%{
+         
+         opacity: .3;
+    }
+    50%{
+       
+       opacity: 1;
+    }
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 5px #edc123;
+  }
+  to {
+    box-shadow: 0 0 25px #edc123;
+  }
+}
+
+@keyframes glide {
+    0%{
+        transform: translateX(-100px);
+        opacity: .3;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,213 @@
+function showmenu(){
+    const togglebtn = document.querySelector('.mobile-nav');
+    const sidemenu = document.querySelector('.sidebar');
+    
+    togglebtn.classList.toggle('active');
+    sidemenu.classList.toggle('active');
+
+}
+
+/*animation8 about*/
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('back1');
+    } else {
+      entry.target.classList.remove('back1');
+    }
+  });
+}, {
+  threshold: .6
+});
+
+const vidback = document.querySelector('.gtk');
+
+if (vidback) {
+  observer.observe(vidback);
+}
+
+const observer1 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('image-about1');
+    } else {
+      entry.target.classList.remove('image-about1');
+    }
+  });
+}, {
+  threshold: .4
+});
+
+const imgAbout = document.querySelector('.image-about');
+
+if (imgAbout) {
+  observer1.observe(imgAbout);
+}
+
+const observer2 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('box-about1');
+    } else {
+      entry.target.classList.remove('box-about1');
+    }
+  });
+}, {
+  threshold: .3
+});
+
+const contenth3 = document.querySelector('.box-about');
+
+if (contenth3) {
+  observer2.observe(contenth3);
+}
+
+const observer4 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('impro');
+    } else {
+      entry.target.classList.remove('impro');
+    }
+  });
+}, {
+  threshold: .6
+});
+
+const impro1 = document.querySelector('.imgpro-wrapper h1');
+
+if (impro1) {
+  observer4.observe(impro1);
+}
+/*animation sample works*/
+const observer3 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('phone-vid1');
+    } else {
+      entry.target.classList.remove('phone-vid1');
+    }
+  });
+}, {
+  threshold: .7
+});
+
+const samph11 = document.querySelector('.phone-vid');
+
+if (samph11) {
+  observer3.observe(samph11);
+}
+
+const observer5 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('photopro');
+    } else {
+      entry.target.classList.remove('photopro');
+    }
+  });
+}, {
+  threshold: .7
+});
+
+const phot = document.querySelector('.photography h1');
+
+if (phot) {
+  observer5.observe(phot);
+}
+/* footer observer*/
+const observer6 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('pro');
+    } else {
+      entry.target.classList.remove('pro');
+    }
+  });
+}, {
+  threshold: .4
+});
+
+const phot1 = document.querySelector('footer > div > div > .imgp');
+
+if (phot1) {
+  observer6.observe(phot1);
+}
+
+const observer7 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('foot');
+    } else {
+      entry.target.classList.remove('foot');
+    }
+  });
+}, {
+  threshold: .7
+});
+
+const phot2 = document.querySelector('footer > div > div:nth-child(2)');
+
+if (phot2) {
+  observer7.observe(phot2);
+}
+
+
+const observer8 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('cont');
+    } else {
+      entry.target.classList.remove('cont');
+    }
+  });
+}, {
+  threshold: .7
+});
+
+const phot3 = document.querySelector('.wrapper-item h1');
+
+if (phot3) {
+  observer8.observe(phot3);
+}
+/*textconverter porject*/
+function lower() {
+  const input = document.getElementById("convert");
+  input.value = input.value.toLowerCase();
+}
+function capital() {
+  const input = document.getElementById("convert");
+  
+  input.value = input.value
+    .toLowerCase()
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+function upper(){
+  const input = document.getElementById('convert');
+ input.value = input.value.toUpperCase();
+
+}
+function clearText() {
+  const input = document.getElementById("convert");
+  const sentence = document.getElementById("charCount");
+  input.value = "";
+  sentence.innerText = "0"; 
+}
+function countChars() {
+  const text = document.getElementById("convert").value;
+  document.getElementById("charCount").innerText = text.length;
+}
+/*modal*/
+
+function showmodal() {
+  const modal1 = document.querySelector('.modal1-wrapper');
+  const showm = document.querySelector('showm');
+
+  modal1.classList.toggle('active');
+  showm.classList.toggle('active');
+  
+}
+
+
