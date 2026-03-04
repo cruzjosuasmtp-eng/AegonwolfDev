@@ -79,7 +79,7 @@
   position: fixed;
   z-index: 9999;
   top: 10%;
-  left:-19.5% ;
+  left:-19.8% ;
   transition: all .3s linear;
   border: 1px solid var(--lite-glass-bg);
   border-left: none;
@@ -350,6 +350,7 @@ height: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding:0 10px;
 }
 .photography div:first-child{
     display: flex;
