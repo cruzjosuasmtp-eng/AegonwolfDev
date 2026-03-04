@@ -355,7 +355,7 @@ height: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top:30px;
+    padding-top:80px;
 }
 .photography div:first-child{
     display: flex;
