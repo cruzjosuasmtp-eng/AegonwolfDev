@@ -409,6 +409,13 @@ height: auto;
 .photography-content div:nth-child(2)::before,.photography-content div:last-child::before,.photography-content div:first-child::before{
     display: none;
 }
+.tagline {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/tag1.png);
+    background-position: center;
+    
+}
 /*footer*/
 footer{
     height:auto;
