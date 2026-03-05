@@ -415,6 +415,7 @@ height: auto;
     background-image: url(../images/tag1.png);
     background-position: center;
     background-size:contain;
+    background-repeat:no-repeat;
     
 }
 /*footer*/
