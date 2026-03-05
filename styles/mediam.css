@@ -366,33 +366,31 @@ height: auto;
 .photography-content{
     display: flex;
    overflow-x: auto;
-      
+      gap:20px;
     width: 90%;
     scroll-snap-type: x mandatory;
 }
-.photography-content::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;  
-     
+.photography-content > *{
+    min-width: 350px; /* force horizontal overflow */
+}
+.photography-content > div{
+    flex: 0 0 350px;
+}
+.photography-content::-webkit-scrollbar{
+  height: 8px;
 }
 
-
-.photography-content::-webkit-scrollbar-track {
-  background: rgb(255, 213, 0, .5);
-  opacity: .5;
-  border-radius: 50%;
-  width: 30px;
-  
-}
-
-
-.photography-content::-webkit-scrollbar-thumb {
-  background:var(--font-button);  
+.photography-content::-webkit-scrollbar-track{
+  background: rgba(255, 213, 0, 0.5);
   border-radius: 10px;
 }
 
+.photography-content::-webkit-scrollbar-thumb{
+  background: var(--font-button);
+  border-radius: 10px;
+}
 
-.photography-content::-webkit-scrollbar-thumb:hover {
+.photography-content::-webkit-scrollbar-thumb:hover{
   background: #d4aa1f;
 }  
 .photography div{
