@@ -246,7 +246,9 @@ background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
+.tagline h1{
+    display:none;
+}
 /*awards*/
 .awards{
     height: auto;
