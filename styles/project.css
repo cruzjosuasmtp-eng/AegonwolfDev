@@ -10,10 +10,11 @@
   padding: 100px 0;
   
 }
-.tagline{
+.tagline1{
     height: 500px;
     width: max(350px, 90%);
      background-image: none;
+     background-color:#000;
   
 }
 .jc-vid{
