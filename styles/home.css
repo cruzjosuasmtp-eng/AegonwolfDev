@@ -144,7 +144,7 @@ body{
    
 }
 .mobile-title{
-   font-size: clamp(3rem, 10vw + 1rem, 12rem);
+   font-size: clamp(3rem, 10vw + 1rem, 15rem);
   font-weight: 900;
   
   letter-spacing: -2px;
@@ -159,7 +159,7 @@ background-size: cover;
   background-clip: text;
   color: transparent;
  
-  animation: pop 5s infinite ease-in-out;
+  animation: pop 5s cubic-bezier(.2,.92,.83,.1) infinite ;
 }
 .vid{
     height: 100%;
