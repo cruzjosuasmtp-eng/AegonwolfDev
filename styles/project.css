@@ -160,13 +160,13 @@ label{
   height: auto;
   width: 100%;
   background-color:var(--accent-background);
-  display: inline;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 0;
   
 }
-.tagline{
+.tagline1{
     height: auto;
     width: max(350px, 100%);
      background-image: none;
