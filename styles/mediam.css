@@ -409,13 +409,25 @@ height: auto;
 .photography-content div:nth-child(2)::before,.photography-content div:last-child::before,.photography-content div:first-child::before{
     display: none;
 }
-.tagline {
+.tagline{
     height: 100%;
-    width: 100%;
-    background-image: url(../images/tag1.png);
-    background-position: center;
-    background-size:contain;
-    background-repeat:no-repeat;
+    background-image: none;
+    background-color: var(--second-background);
+    height: auto;
+    padding: 50% 0;
+}
+.tagline h1{
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 200% auto;
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     
 }
 /*footer*/
