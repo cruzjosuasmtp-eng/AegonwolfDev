@@ -207,7 +207,7 @@ background-size: cover;
 .name-carousel{
     width: 100%;
     height: 7vh;
-    background-color: var(--font-button);
+    background-color:#1a1a1a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,12 +233,12 @@ background-size: cover;
    
 }
 .content-box h6{
-  color: var(--font-second-color);
+  color: var(--secondary-background);
   font-size: 14px;
   flex:  0 0 1rem;
   padding: 0 10px;
   white-space: nowrap;
-  opacity: .9;
+  opacity: .7;
 
 }
 /*intiial*/
