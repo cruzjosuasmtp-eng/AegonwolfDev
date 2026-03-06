@@ -242,7 +242,7 @@ background-size: cover;
 .tagline{
     height: 100%;
     width: 100%;
-    background-image: url(../images/tag1.png);
+    background-image: url(../images/tag1.jpg);
     background-position: center;
     background-attachment: fixed;
 }
