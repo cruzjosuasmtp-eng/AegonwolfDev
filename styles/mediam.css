@@ -126,7 +126,7 @@
 .name-carousel{
     width: 100%;
     height: 7vh;
-    background-color:var(--font-button);
+    background-color:var(--accent-background);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,9 +150,9 @@
    
 }
 .content-box h6{
-  color: var(--font-second-color);
+  color: var(--secondary-background);
   font-size: 1rem;
-
+  opacity:.8;
   padding: 0 5px;
   white-space: nowrap;
 
