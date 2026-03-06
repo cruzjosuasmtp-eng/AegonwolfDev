@@ -423,8 +423,8 @@ height: auto;
 }
 .tagline h1{
     font-size: 3rem;
-    background-image: url("../images/tag.jpg");
-    background-size: 200% auto;
+    background-image:url("../images/tag.png");
+    background-size: 200%;
      display: flex;
     text-align: center;
     justify-content: center;
