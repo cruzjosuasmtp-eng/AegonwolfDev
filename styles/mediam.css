@@ -433,6 +433,7 @@ height: auto;
 
     color: transparent;
     -webkit-text-fill-color: transparent;
+    animation: pop 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite ;
     
 }
 /*footer*/
