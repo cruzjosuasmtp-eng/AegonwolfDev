@@ -159,7 +159,7 @@ background-size: cover;
   background-clip: text;
   color: transparent;
  
-  animation: pop 5s cubic-bezier(.2,.92,.83,.1) infinite ;
+  animation: pop 5s cubic-bezier(.06,.7,.58,.77) infinite ;
 }
 .vid{
     height: 100%;
