@@ -249,7 +249,7 @@ background-size: cover;
   background-image: url(../images/mount.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size:contain;
+    background-size:cover;
   display: flex;
   justify-content: center;
   
