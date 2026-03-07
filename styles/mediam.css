@@ -45,9 +45,7 @@
    
 }
 .header-content h3{
-    font-size: 3rem;
-    color: var(--font-button);
-    font-family:cursive;
+    display:none;
 }
 .vid{
     display: none;
