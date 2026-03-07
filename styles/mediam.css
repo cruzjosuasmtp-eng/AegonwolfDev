@@ -419,6 +419,7 @@ height: auto;
 .initial-content{
     height:70vh;
     width:100%;
+    background-repeat:no-repeat;
 }
 .tagline{
     height: 100%;
@@ -432,7 +433,7 @@ height: auto;
 }
 .tagline h1{
     font-size: 3rem;
-    background-image:url("../images/tag1.png");
+    background-color: rgba(255,255,255,0.3);
     background-size: 200%;
      display: flex;
     text-align: center;
