@@ -185,28 +185,29 @@
     text-align: center;
  
 }
+.awards-wrapper{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iPhone */
+}
+
+/* Scrollbar width */
 .awards-wrapper::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;  
-     
+  width: 10px;
 }
 
-
+/* Track */
 .awards-wrapper::-webkit-scrollbar-track {
-  background: rgb(255, 213, 0, .5);
-  opacity: .5;
-  border-radius: 50%;
-  width: 30px;
-  
+  background: rgba(255, 213, 0, 0.5);
+  border-radius: 50px; /* fully rounded track */
 }
 
-
+/* Thumb */
 .awards-wrapper::-webkit-scrollbar-thumb {
-  background:var(--font-button);  
-  border-radius: 10px;
+  background: var(--font-button);
+  border-radius: 50px; /* circular look */
 }
 
-/* Hover effect */
+/* Hover */
 .awards-wrapper::-webkit-scrollbar-thumb:hover {
   background: #d4aa1f;
 }
