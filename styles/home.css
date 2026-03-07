@@ -165,7 +165,7 @@ body{
   display: inline-block;
   text-align: center;
   background-image: url("../images/mount.jpg");
-  
+  background-repeat:no-repeat;
 background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
