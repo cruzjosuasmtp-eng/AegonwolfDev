@@ -424,7 +424,7 @@ height: auto;
 .tagline{
     height: 100%;
     background-image: none;
-    background-color: var(--second-background);
+   
     height: auto;
     padding: 50% 0;
     display:flex;
