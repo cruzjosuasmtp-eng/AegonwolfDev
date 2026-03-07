@@ -3,7 +3,7 @@
     width: 100%;
     position: fixed;
     top: -102%;
-    background-image: url(../images/pyr.png);
+    background-color:#000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,7 @@
     align-items: flex-start;
     transition: all .3s linear;
     z-index: 99999;
+    overflow-y: auto;
    
 }
 .modal1-wrapper.active{
