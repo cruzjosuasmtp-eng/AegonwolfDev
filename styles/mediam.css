@@ -421,6 +421,7 @@ height: auto;
     width:100%;
     background-repeat:no-repeat;
     background-size:cover;
+    background-color:#000;
 }
 .tagline{
     height: 100%;
