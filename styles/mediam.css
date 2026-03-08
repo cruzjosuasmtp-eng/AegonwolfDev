@@ -233,7 +233,7 @@
 .gtk{
     writing-mode: horizontal-tb;
     font-size: clamp(3rem, 7vw + 1rem, 5rem);
-    color: var(--font-primary-color);
+    color: var(--font-button);
     text-align: center;
    
 }
