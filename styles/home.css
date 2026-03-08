@@ -191,7 +191,7 @@ background-size: cover;
    border-radius: 10px;
    border: none;
    transition: all .3s linear;
-   border: 1px solid var(--font-button);
+  
    opacity: .8;
    text-decoration: none;
   
