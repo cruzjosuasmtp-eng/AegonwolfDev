@@ -21,7 +21,7 @@
     left: 2%;
     border: 1px solid var(--font-button);
     border-radius: 50%;
-   background-color: var(--lite-glass-bg);
+   background-color: var(--dark-glass-bg);
    backdrop-filter: blur(10px);
    
    
@@ -62,13 +62,13 @@
 }
 .btn-header{
     background-color: transparent;
-    color: var(--font-button);
+    color: var(--font-second-color);
     font-size: 1.2rem;
     position: absolute;
    bottom: 15%;
    padding: 20px 30px;
    border-radius: 20px;
-   border: 1px solid var(--font-button);
+   
 }
 
 /*sidebar*/
@@ -110,7 +110,7 @@
     
 }
 .sidebar div a{
-    color: #fff;
+    color: var(--font-second-color);
     opacity: .8;
     font-size: 12px;
     text-decoration: none;
