@@ -3,7 +3,7 @@
     --font-primary-color:#fff;
     --font-second-color:#000;
     --font-button:#E16F03;
-    --font-button-2:#1A77F2;
+    --font-button-2:hsl(7, 100%, 59%);
     --accent-background:#111111;
     /*background*/
     --primary-background:#000;
@@ -599,7 +599,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--font-second-color);
+    background: var(--font-button);
     overflow-y: hidden;
    
 }
@@ -638,7 +638,7 @@ footer > div > div:nth-child(2).foot{
 }
 footer > div > div:nth-child(2) h1{
     font-size: clamp(1.8rem,10vw, 5rem);
-    color: var(--font-primary-color);
+    color: var(--font-second-color);
     white-space: nowrap;
     text-align: center;
     position: relative;
@@ -649,12 +649,12 @@ footer > div > div:nth-child(2) h1::before{
     width: 100%;
     height: 3px;
     bottom: 0;
-    background: var(--font-button);
+    background: var(--font-accent);
     position: absolute;
 }
 footer > div > div:nth-child(2) h3{
     font-size: clamp(1rem,10vw,1.5rem);
-    color: var(--font-primary-color);
+    color: var(--font-second-color);
     white-space: nowrap;
     text-align: center;
     opacity: .3;
@@ -679,7 +679,7 @@ footer > div  > div:nth-child(2) > div:nth-child(3) a::before{
 
     height: 3px;
     width: 100%;
-    background-color: var(--font-button);
+    background-color: var(--font-second-color);
 
     transform: scaleX(0);
     transform-origin: center;
@@ -700,12 +700,12 @@ footer > div > div > div:last-child {
 }
 footer > div > div > div:last-child a{
     font-size: 1rem;
-    color: var(--font-primary-color);
+    color: var(--font-accent);
     transition: .3s linear;
    opacity: .3;
 }
 footer > div > div > div:last-child a:hover{
-    color: var(--font-button);
+    color: var(--font-second-color);
     opacity: .8;
 }
 
