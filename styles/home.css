@@ -1,4 +1,5 @@
 :root{
+    --font-accent: #1a1a1a;
     --font-primary-color:#fff;
     --font-second-color:#000;
     --font-button:#E16F03;
@@ -70,7 +71,7 @@ body{
 .navbar li:nth-child(3) {
     font-size: 1.5rem;
     padding: 0 20px;
-    color: var(--secondary-background);
+    color: var(--font-second-color);
     opacity:.7;
    
 }
@@ -80,7 +81,7 @@ body{
     align-items: center;
     text-decoration: none;
     padding: 0 1cqb;
-    color: var(--font-primary-color);
+    color: var(--font-accent);
     opacity: .6;
     font-weight: 600;
      transition: .3s linear;
@@ -99,7 +100,7 @@ body{
 
     height: 3px;
     width: 100%;
-    background-color: var(--font-button);
+    background-color:var(--font-second-color);
 
     transform: scaleX(0);
     transform-origin: center;
@@ -110,7 +111,7 @@ body{
     transform: scaleX(1);
 }
 .navbar a:hover{
-    color: var(--font-button);
+    color:var(--font-second-color);
     opacity: 1;
 }
 .showm{
@@ -182,7 +183,7 @@ background-size: cover;
 }
 .btn-header{
     background-color: transparent;
-    color: var(--font-button);
+    color: var(--font-accent);
     font-size: 1.2rem;
     font-weight: 600;
     position: absolute;
@@ -197,8 +198,8 @@ background-size: cover;
   
 }
 .btn-header:hover{
-    background-color: var(--font-button);
-    color: #000;
+    background-color: var(--font-second-color);
+    color: var(--font-primary-color);
 }
 /* sidebar*/
 .sidebar{
