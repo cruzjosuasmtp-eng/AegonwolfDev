@@ -149,10 +149,10 @@ body{
     color: transparent;
     background-image: url("../images/dna1.png");
     background-clip: text;
-    background-size: 150%;
+    background-size: 120%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 3px 3px 3px rgba(255,255,255,0.2);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
      animation: pop 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite ;
     
 }
