@@ -197,7 +197,7 @@
 
 /* Track */
 .awards-wrapper::-webkit-scrollbar-track {
-  background: rgba(255, 213, 0, 0.5);
+  background: rgba(255, 70, 45, 0.5);
   border-radius: 50px; /* fully rounded track */
 }
 
@@ -388,7 +388,7 @@ height: auto;
 
 /* Track */
 .photography-content::-webkit-scrollbar-track {
-  background: rgba(255, 213, 0, 0.5);
+  background: rgba(255, 70, 45, 0.5);
   border-radius: 50px; /* fully rounded track */
 }
 
