@@ -116,18 +116,18 @@ body{
 }
 .showm{
     padding: 10px 20px;
-    background-color: var(--font-button);
-    color: var(--font-second-color);
+    background-color: var(--font-second-color);
+    color: var(--font-primary-color);
     border-radius: 1000px;
     transition: all .3s linear;
     position: relative;
     border: none;
-     border: 1px solid var(--font-button);
+     border: 1px solid var(--font-second-color);
 }
 .showm:hover{
     background-color: transparent;
-    color: var(--font-button);
-    border: 1px solid var(--font-button);
+    color: var(--font-second-color);
+    border: 1px solid var(--font-second-color);
 }
 
 /* mobile home */
