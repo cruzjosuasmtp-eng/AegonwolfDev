@@ -270,7 +270,7 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--accent-background);
+    background-color: #000;
     padding: 100px 0;
 }
 .awards-wrapper{
@@ -289,6 +289,7 @@ background-size: cover;
 .aw img{
     filter: grayscale(1);
     transition: .3s linear;
+    box-shadow: 3px 3px 3px rgba(198, 198, 198,0.3)
 }
 .aw img:hover{
     filter: grayscale(0);
