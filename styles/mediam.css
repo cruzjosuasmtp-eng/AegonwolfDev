@@ -110,7 +110,7 @@
     
 }
 .sidebar div a{
-    color: var(--font-second-color);
+    color: var(--font-primary-color);
     opacity: .8;
     font-size: 12px;
     text-decoration: none;
