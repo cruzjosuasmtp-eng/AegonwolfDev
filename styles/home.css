@@ -147,7 +147,7 @@ body{
 #timer{
     font-size: clamp(3rem, 7vw , 6rem);
     color: transparent;
-    background: rgba(255,255,255,0.5);
+    background-image: url("../images/dna1.png");
     background-clip: text;
     background-size: 150%;
     -webkit-background-clip: text;
