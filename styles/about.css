@@ -106,7 +106,7 @@
 }
 @media screen and (max-width:768px){
     .tagline{
-    height: 80%;
+    height: 100%;
     width: 100%;
     background-image: url(../images/pyr.png);
     background-position: center;
