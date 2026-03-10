@@ -42,6 +42,7 @@ body{
 }
 .vidp{
     position: absolute;
+    z-index:-1;
 }
 .nav-wrapper{
    width:max(700px , 90%);
