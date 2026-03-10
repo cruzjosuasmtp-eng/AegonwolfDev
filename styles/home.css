@@ -57,7 +57,9 @@ body{
     justify-content: center;
     align-items: center;
     width: max(800px,70%);
-    background-color:#FF462D;
+    background:linear-gradient(90deg,rgba(255, 70, 45, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 124, 69, 1) 100%);
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    border-radius:10px;
   
     
 }
