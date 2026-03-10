@@ -225,6 +225,7 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     z-index:999;
+    position:relative;
     
 }
 .box-carousel{
