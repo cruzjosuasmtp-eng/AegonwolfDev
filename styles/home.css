@@ -55,6 +55,7 @@ body{
     justify-content: center;
     align-items: center;
     width: max(800px,70%);
+    background-color:#FF462D;
   
     
 }
