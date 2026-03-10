@@ -3,7 +3,7 @@
     --font-primary-color:#fff;
     --font-second-color:#000;
     --font-button:#FF462D;
-    --font-button-2:hsl(7, 100%, 59%);
+    --font-button-2:hsl(7, 100%, 29%);
     --accent-background:#111111;
     /*background*/
     --primary-background:#000;
@@ -194,7 +194,7 @@ background-size: cover;
 }
 .btn-header{
     background-color: transparent;
-    color: var(--font-accent);
+    color: var(--font-button);
     font-size: 1.2rem;
     font-weight: 600;
     position: absolute;
@@ -210,7 +210,7 @@ background-size: cover;
 }
 .btn-header:hover{
     background-color: var(--font-second-color);
-    color: var(--font-primary-color);
+    color: var(--font-button-2);
 }
 /* sidebar*/
 .sidebar{
@@ -224,6 +224,7 @@ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index:999;
     
 }
 .box-carousel{
@@ -246,7 +247,7 @@ background-size: cover;
    
 }
 .content-box h6{
-  color: var(--secondary-background);
+  color: var(--font-button);
   font-size: 14px;
   flex:  0 0 1rem;
   padding: 0 10px;
