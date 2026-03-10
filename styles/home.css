@@ -183,7 +183,7 @@ background-size: cover;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
- 
+    -webkit-text-stroke: 1px #fff;
   animation: pop 10s cubic-bezier(.06,.7,.58,.77) infinite ;
 }
 .vid{
