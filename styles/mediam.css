@@ -3,7 +3,7 @@
         display: none;
     }
 .header-wrapper{
-    background: var(--font-button);
+   
     height: 100vh;
     width: 100%;
     display: flex;
