@@ -86,7 +86,7 @@
   transition: all .3s linear;
   border: 1px solid var(--lite-glass-bg);
   border-left: none;
-  background-color:var(--dark-glass-bg);
+  background-color:var(--font-button);
   backdrop-filter: blur(10px);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -110,7 +110,7 @@
     
 }
 .sidebar div a{
-    color: var(--font-primary-color);
+    color: var(--font-second-color);
     opacity: .8;
     font-size: 12px;
     text-decoration: none;
