@@ -30,10 +30,10 @@
 
 @keyframes glowPulse {
   from {
-    box-shadow: 0 0 5px #e16f03;
+    box-shadow: 0 0 5px #e9ff09;
   }
   to {
-    box-shadow: 0 0 25px #e16f03;
+    box-shadow: 0 0 25px #e9ff09;
   }
 }
 
