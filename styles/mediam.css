@@ -62,7 +62,7 @@
 }
 .btn-header{
     background-color: transparent;
-    color: var(--font-second-color);
+    color: var(--font-button);
     font-size: 1.2rem;
     position: absolute;
    bottom: 15%;
