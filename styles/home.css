@@ -348,7 +348,7 @@ background-size: cover;
 .gtk{
     writing-mode: sideways-lr;
     font-size: clamp(3rem, 7vw + 1rem, 5rem);
-    color: var(--font-button);
+    color: var(--font-primary-color);
     text-align: center;
     transform: translateX(-100px);
     transition:all 1s ease-in;
