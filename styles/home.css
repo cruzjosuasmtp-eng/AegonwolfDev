@@ -355,6 +355,16 @@ background-size: cover;
     opacity: .3;
    
 }
+.gtk::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: -4px;
+    right: 0;
+    height: 3px;
+    background: var(--font-button);
+
+}
 .back1{
         transform: translateX(0);
         opacity: 1;
