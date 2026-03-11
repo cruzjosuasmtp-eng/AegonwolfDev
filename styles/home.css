@@ -359,8 +359,8 @@ background-size: cover;
     content: '';
     position: absolute;
     width: 100%;
-    bottom: -4px;
-    right: 0;
+    right: -4px;
+    bottom: 0;
     height: 3px;
     background: var(--font-button);
 
