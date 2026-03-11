@@ -148,7 +148,7 @@
    
 }
 .content-box h6{
-  color: hsl(7, 100%, 59%);
+  color: var(--font-button);
   font-size: 1rem;
   opacity:.8;
   padding: 0 5px;
