@@ -625,7 +625,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--font-button);
+    background: var(--font-second-color);
     overflow-y: hidden;
    
 }
@@ -664,7 +664,7 @@ footer > div > div:nth-child(2).foot{
 }
 footer > div > div:nth-child(2) h1{
     font-size: clamp(1.8rem,10vw, 5rem);
-    color: var(--font-second-color);
+    color: var(--font-button);
     white-space: nowrap;
     text-align: center;
     position: relative;
@@ -680,7 +680,7 @@ footer > div > div:nth-child(2) h1::before{
 }
 footer > div > div:nth-child(2) h3{
     font-size: clamp(1rem,10vw,1.5rem);
-    color: var(--font-second-color);
+    color: var(--font-button);
     white-space: nowrap;
     text-align: center;
     opacity: .3;
@@ -691,7 +691,7 @@ footer > div > div:nth-child(2) div:first-child{
     align-items: center;
 }
 footer > div  > div:nth-child(2) > div:nth-child(3) a{
-    color: var(--font-accent);
+    color: var(--font-primary-color);
     padding: 0 15px;
     text-decoration: none;
     position: relative;
@@ -705,7 +705,7 @@ footer > div  > div:nth-child(2) > div:nth-child(3) a::before{
 
     height: 3px;
     width: 100%;
-    background-color: var(--font-second-color);
+    background-color: var(--font-button);
 
     transform: scaleX(0);
     transform-origin: center;
@@ -731,7 +731,7 @@ footer > div > div > div:last-child a{
    opacity: .3;
 }
 footer > div > div > div:last-child a:hover{
-    color: var(--font-second-color);
+    color: var(--font-primary-color);
     opacity: .8;
 }
 
