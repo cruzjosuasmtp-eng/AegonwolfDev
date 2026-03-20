@@ -28,7 +28,7 @@ html , body{
 }
 body{
     min-height: 100vh;
-    font-family:var(--global-primary-font-family)
+    font-family:var(--global-primary-font-family);
 }
 .header-wrapper{
     background: #fff;
