@@ -41,7 +41,7 @@
     padding: 1em;
     width: 50px;
     height: auto;
-    filter:invert(1);
+    filter:invert(0);
 }
 /*--content header--*/
 .header-content{
@@ -433,6 +433,7 @@ height: auto;
     background-repeat:no-repeat;
     background-size:cover;
     background-color:#000;
+    z-index:5;
 }
 .tagline{
     height: 100%;
