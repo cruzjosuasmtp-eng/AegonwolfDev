@@ -19,6 +19,7 @@
 .vidp{
     position: absolute;
     z-index:-1;
+    height:115vh;
     
 }   
 
@@ -101,7 +102,7 @@
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow:0 0 8px rgba(233, 255, 9, 0.6),
-              0 0 10px rgba(233, 255, 9, 0.4);
+             
  
 }
 .sidebar.active{
