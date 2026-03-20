@@ -726,7 +726,7 @@ footer > div > div > div:last-child {
 }
 footer > div > div > div:last-child a{
     font-size: 1rem;
-    color: var(--font-accent);
+    color: var(--font-button);
     transition: .3s linear;
    opacity: .3;
 }
