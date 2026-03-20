@@ -45,6 +45,7 @@ body{
 .vidp{
     position: absolute;
     z-index:-1;
+    height:100vh;
 }
 .nav-wrapper{
    width:max(700px , 90%);
@@ -189,7 +190,7 @@ background-size: cover;
   animation: pop 10s cubic-bezier(.06,.7,.58,.77) infinite ;
 }
 .vid{
-    height: 100vh;
+    height: 100%;
     margin-top: 20px;
     border-radius: 70%;
     display: none;
