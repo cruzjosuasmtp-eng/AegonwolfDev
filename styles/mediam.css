@@ -200,13 +200,13 @@
 
 /* Track */
 .awards-wrapper::-webkit-scrollbar-track {
-  background: var(--font-button);
+  background: var(--font-button-2);
     opacity:.3;
 
 /* Thumb */
 .awards-wrapper::-webkit-scrollbar-thumb {
   background: var(--font-button);
-  border-radius: 50%;
+  border-radius: 1000px;
     
  
 }
