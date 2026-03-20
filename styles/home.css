@@ -270,6 +270,8 @@ background-size: cover;
   display: flex;
   justify-content: center;
     align-items:center;
+    position:relative;
+    z-index:5;
   
   
 }
@@ -278,7 +280,7 @@ background-size: cover;
     width: 100%;
      display: flex;
   justify-content: center;
-    align-items:flex-end;
+    align-items:center;
    
 }
 .tagline h1{
