@@ -195,18 +195,19 @@
 
 /* Scrollbar width */
 .awards-wrapper::-webkit-scrollbar {
-  width: 10px;
+   width: 5px;
+  height: 10px;  
 }
 
 /* Track */
 .awards-wrapper::-webkit-scrollbar-track {
-  background: var(--font-button-2);
-    opacity:.3;
+  background: transparent;
+    
 
 /* Thumb */
 .awards-wrapper::-webkit-scrollbar-thumb {
   background: var(--font-button);
-  border-radius: 1000px;
+  border-radius: 50px;
     
  
 }
@@ -392,8 +393,7 @@ height: auto;
 
 /* Track */
 .photography-content::-webkit-scrollbar-track {
-  background: var(--font-button-2);
-  border-radius: 50px; /* fully rounded track */
+  background: transparent;
 }
 
 /* Thumb */
