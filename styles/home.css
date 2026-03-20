@@ -137,7 +137,7 @@ body{
 }
 .showm:hover{
     background-color: var(--font-button);
-    color: var(--font-primary-color);
+    color: var(--font-second-color);
     border: 1px solid var(--font-second-color);
 }
 
