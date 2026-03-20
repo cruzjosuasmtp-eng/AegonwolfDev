@@ -202,17 +202,17 @@ background-size: cover;
     position: absolute;
    bottom: 15%;
    padding: 20px 30px;
-   border-radius: 10px;
-   border: none;
+   border-radius: 1000px;
+   border: 1px solid var(--font-button);
    transition: all .3s linear;
   
-   opacity: .8;
+   opacity: 1;
    text-decoration: none;
   
 }
 .btn-header:hover{
     background-color: var(--font-second-color);
-    color: var(--font-button-2);
+    color: var(--font-button);
 }
 /* sidebar*/
 .sidebar{
