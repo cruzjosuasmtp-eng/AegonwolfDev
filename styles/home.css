@@ -211,8 +211,8 @@ background-size: cover;
   
 }
 .btn-header:hover{
-    background-color: var(--font-second-color);
-    color: var(--font-button);
+    background-color: var(--font-button);
+    color: var(--font-second-color);
 }
 /* sidebar*/
 .sidebar{
