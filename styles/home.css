@@ -280,7 +280,8 @@ background-size: cover;
      display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--font-button);
+    color: var(--font-primary-color);
+    text-shadows: 3px 3px 3px rgba(0,0,0,.4);
 }
 /*awards*/
 .awards{
