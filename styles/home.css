@@ -728,7 +728,7 @@ footer > div > div > div:last-child a{
     font-size: 1rem;
     color: var(--font-button);
     transition: .3s linear;
-   opacity: .3;
+   opacity: 1;
 }
 footer > div > div > div:last-child a:hover{
     color: var(--font-primary-color);
