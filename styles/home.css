@@ -46,6 +46,7 @@ body{
     position: absolute;
     z-index:-1;
     height:100vh;
+    width:100%;
 }
 .nav-wrapper{
    width:max(700px , 90%);
@@ -269,12 +270,16 @@ background-size: cover;
     background-size:cover;
   display: flex;
   justify-content: center;
+    align-items:center;
   
   
 }
 .tagline{
     height: 100%;
     width: 100%;
+     display: flex;
+  justify-content: center;
+    align-items:center;
    
 }
 .tagline h1{
@@ -283,6 +288,7 @@ background-size: cover;
     align-items: center;
     color: var(--font-primary-color);
     text-shadows: 3px 3px 3px rgba(0,0,0,.4);
+    font-size:8rem;
 }
 /*awards*/
 .awards{
