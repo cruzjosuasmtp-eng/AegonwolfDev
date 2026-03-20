@@ -277,7 +277,10 @@ background-size: cover;
    
 }
 .tagline h1{
-    display:none;
+    display:flex;
+    justify-content:center;
+    aligh-items:center;
+    color: var(--font-button);
 }
 /*awards*/
 .awards{
