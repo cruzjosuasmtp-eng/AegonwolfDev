@@ -71,7 +71,7 @@ body{
 .navbar ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 90%;
 }
@@ -89,7 +89,10 @@ body{
     opacity:1;
    
 }
-.navbar a{
+.navbar li:last-child{
+   margin-left:auto;
+}
+    .navbar a{
     display: flex;
     justify-content: center;
     align-items: center;
