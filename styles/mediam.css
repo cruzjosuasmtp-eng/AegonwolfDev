@@ -12,9 +12,7 @@
     justify-content: center;
     
 }
-.vidp{
-    height:100dvh;
-}
+
 /* mobile home */
 .mobile-nav{
    display: flex;
@@ -84,7 +82,7 @@
   height: 80%;
   position: fixed;
   z-index: 9999;
-  top: 13%;
+  top: 15%;
   left:-21% ;
   transition: all .3s linear;
   border: 1px solid var(--lite-glass-bg);
