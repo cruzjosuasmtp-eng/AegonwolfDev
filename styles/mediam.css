@@ -202,7 +202,7 @@
 /* Track */
 .awards-wrapper::-webkit-scrollbar-track {
   background: transparent;
-    
+}
 
 /* Thumb */
 .awards-wrapper::-webkit-scrollbar-thumb {
