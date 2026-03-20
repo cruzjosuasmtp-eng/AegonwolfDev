@@ -200,7 +200,8 @@
 
 /* Track */
 .awards-wrapper::-webkit-scrollbar-track {
-  background: transparent;
+  background: var(--font-button);
+    opacity:.3;
 
 /* Thumb */
 .awards-wrapper::-webkit-scrollbar-thumb {
