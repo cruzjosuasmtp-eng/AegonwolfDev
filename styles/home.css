@@ -58,9 +58,9 @@ body{
     justify-content: center;
     align-items: center;
     width: max(800px,70%);
-    background-color: var(--font-button);
-    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
-    border-radius:10px;
+    background-color: transparent;
+    
+   
   
     
 }
@@ -81,8 +81,8 @@ body{
 .navbar li:nth-child(3) {
     font-size: 1.5rem;
     padding: 0 20px;
-    color: var(--font-second-color);
-    opacity:.7;
+    color: var(--font-button);
+    opacity:1;
    
 }
 .navbar a{
@@ -91,8 +91,8 @@ body{
     align-items: center;
     text-decoration: none;
     padding: 0 1cqb;
-    color: var(--font-accent);
-    opacity: .6;
+    color: var(--font-button);
+    opacity: 1;
     font-weight: 600;
      transition: .3s linear;
     margin-left: auto;
@@ -110,7 +110,7 @@ body{
 
     height: 3px;
     width: 100%;
-    background-color:var(--font-second-color);
+    background-color:var(--font-button);
 
     transform: scaleX(0);
     transform-origin: center;
@@ -121,7 +121,7 @@ body{
     transform: scaleX(1);
 }
 .navbar a:hover{
-    color:var(--font-second-color);
+    color:var(--font-button-2);
     opacity: 1;
 }
 .showm{
