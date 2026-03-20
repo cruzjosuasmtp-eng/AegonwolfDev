@@ -277,9 +277,9 @@ background-size: cover;
    
 }
 .tagline h1{
-    display:flex;
-    justify-content:center;
-    aligh-items:center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--font-button);
 }
 /*awards*/
