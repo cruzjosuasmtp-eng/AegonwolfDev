@@ -37,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     position:relative;
     z-index:999;
     overflow:hidden;
@@ -49,17 +49,19 @@ body{
     
 }
 .nav-wrapper{
-   width:max(700px , 90%);
+   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
+    background-color:rgba(0,0,0,.3);
+    backdrop-filter:blur(10px);
    
 }
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: max(800px,70%);
+    width: 90%;
     background-color: transparent;
     
    
