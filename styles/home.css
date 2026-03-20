@@ -99,7 +99,7 @@ body{
     text-decoration: none;
     padding: 0 1cqb;
     color: var(--font-button);
-    opacity: 1;
+    opacity: .8;
     font-weight: 600;
      transition: .3s linear;
     margin-left: auto;
@@ -118,7 +118,7 @@ body{
     height: 3px;
     width: 100%;
     background-color:var(--font-button);
-
+    
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.4s ease;
