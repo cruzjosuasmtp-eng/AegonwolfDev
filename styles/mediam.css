@@ -12,6 +12,9 @@
     justify-content: center;
     
 }
+.vidp{
+    height:100dvh;
+}
 /* mobile home */
 .mobile-nav{
    display: flex;
