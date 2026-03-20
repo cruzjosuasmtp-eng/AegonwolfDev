@@ -97,7 +97,7 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 0 1cqb;
+    padding: 20px 1cqb;
     color: var(--font-button);
     opacity: .8;
     font-weight: 600;
