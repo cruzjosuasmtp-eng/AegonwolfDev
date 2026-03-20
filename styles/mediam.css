@@ -435,18 +435,16 @@ height: auto;
 }
 .tagline h1{
     font-size: 3rem;
-    background-color:#000;
+   
     text-shadow: 3px 3px 3px rgba(255,255,255,0.8);
-    background-size: 200%;
-     display: flex;
-    text-align: center;
-    justify-content: center;
-    background-clip: text;
-    -webkit-background-clip: text;
 
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: pop 10s cubic-bezier(0.25, 0.1, 0.25, 1) infinite ;
+    
+    text-align: center;
+    
+   
+
+    color: var(--font-primary-color);
+    
     
 }
 /*footer*/
