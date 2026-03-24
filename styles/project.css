@@ -176,16 +176,19 @@ form{
     justify-content: center;
     align-items: center;
     accent-color: #000;
-    h3{
+   
+  
+
+}
+#restemp{
+   
         color: red;
         padding: 20px;
     font-size: 16px;
    background-color: #fff;
     width: 100px;
    
-    }
-  
-
+    
 }
 .form-wrapper{
     display: flex;
