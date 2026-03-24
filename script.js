@@ -18,10 +18,11 @@ function btnSub(event){
     let inp = document.getElementById("inp").value;
     inp = Number(inp);
     
-    if (isNaN(inp)){
+    if (isNaN(inp)) || (inp == null){
         restemp.textContent = "Please enter a valid number";
         return;
     }
+   
     if(celto.checked){
       let temp = Math.ceil((inp * 9/5) + 32);
      restemp.textContent = `${temp} °F`;
@@ -31,7 +32,7 @@ function btnSub(event){
         restemp.textContent = `${temp} °C`
     }
     else{
-        restemp.textContent="Please enter the your option";
+        restemp.textContent="Please choose an option";
     }
 }
 /*animation8 about*/
