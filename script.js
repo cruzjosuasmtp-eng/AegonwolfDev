@@ -6,7 +6,34 @@ function showmenu(){
     sidemenu.classList.toggle('active');
 
 }
+/* temp convert */
+const celto = document.getElementById("celtofar");
+const fare = document.getElementById("fartocel");
+const restemp = document.getElementById("restemp");
 
+
+
+function btnSub(event){
+    event.preventDefault();
+    let inp = document.getElementById("inp").value;
+    inp = Number(inp);
+    
+    if (isNaN(inp)){
+        restemp.textContent = "Please enter a valid number";
+        return;
+    }
+    if(celto.checked){
+      let temp = Math.ceil((inp * 9/5) + 32);
+     restemp.textContent = `${temp} °F`;
+    }
+    else if(fare.checked){
+        let temp = Math.ceil((inp - 32) * 5/9);
+        restemp.textContent = `${temp} °C`
+    }
+    else{
+        restemp.textContent="Please enter the your option";
+    }
+}
 /*animation8 about*/
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -230,30 +257,4 @@ setInterval(updateClock, 1000);
 updateClock();
 /*  temp js */
 
-const celto = document.getElementById("celtofar");
-const fare = document.getElementById("fartocel");
-const restemp = document.getElementById("restemp");
 
-
-
-function btnSub(event){
-    event.preventDefault();
-    let inp = document.getElementById("inp").value;
-    inp = Number(inp);
-    
-    if (isNaN(inp)){
-        restemp.textContent = "Please enter a valid number";
-        return;
-    }
-    if(celto.checked){
-      let temp = Math.ceil((inp * 9/5) + 32);
-     restemp.textContent = `${temp} °F`;
-    }
-    else if(fare.checked){
-        let temp = Math.ceil((inp - 32) * 5/9);
-        restemp.textContent = `${temp} °C`
-    }
-    else{
-        restemp.textContent="Please enter the your option";
-    }
-}
