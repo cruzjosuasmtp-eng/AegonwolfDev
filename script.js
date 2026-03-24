@@ -19,13 +19,13 @@ function btnSub(event){
     let inp = document.getElementById("inp").value;
     inp = Number(inp);
     
-      if (isNaN(inp) || inp === null){
+      if (isNaN(inp) || inp === ""){
         err.textContent = "Please enter a valid number";
         return;
     }
    
     if(celto.checked){
-     if(inp === null){
+     if(inp === ""){
          err.textContent = "Input Temperature";
      }
       else{
