@@ -215,13 +215,13 @@ form{
     outline: none;
     border: none;
     color: red;
-    width: 70px;
+    width: 100px;
     &::placeholder{
         color: #c6c6c6;
         opacity: .7;
     }
 }
-label{
+.form-wrapper label{
   font-size:1.5rem;
 }
 .inp-temp{
@@ -230,6 +230,7 @@ label{
     align-items: center;
     background-color: transparent;
     gap: 20px;
+    width: 100px;
      p {
         font-size: 1.5rem;
      }
