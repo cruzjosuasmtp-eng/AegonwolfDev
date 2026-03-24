@@ -25,8 +25,13 @@ function btnSub(event){
     }
    
     if(celto.checked){
-      let temp = Math.ceil((inp * 9/5) + 32);
-     restemp.textContent = `${temp} °F`;
+     if(inp === null){
+         err.textContent = "Input Temperature";
+     }
+      else{
+           let temp = Math.ceil((inp * 9/5) + 32);
+         restemp.textContent = `${temp} °F`;
+      }
     }
     else if(fare.checked){
         let temp = Math.ceil((inp - 32) * 5/9);
