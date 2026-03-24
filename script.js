@@ -19,7 +19,7 @@ function btnSub(event){
     let inp = document.getElementById("inp").value;
     inp = Number(inp);
     
-    if (isNaN(inp)) || (inp == null){
+      if (isNaN(inp) || inp === null){
         err.textContent = "Please enter a valid number";
         return;
     }
