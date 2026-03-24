@@ -10,6 +10,7 @@ function showmenu(){
 const celto = document.getElementById("celtofar");
 const fare = document.getElementById("fartocel");
 const restemp = document.getElementById("restemp");
+const err = document.getElementById("error1");
 
 
 
@@ -19,7 +20,7 @@ function btnSub(event){
     inp = Number(inp);
     
     if (isNaN(inp)) || (inp == null){
-        restemp.textContent = "Please enter a valid number";
+        err.textContent = "Please enter a valid number";
         return;
     }
    
@@ -32,7 +33,7 @@ function btnSub(event){
         restemp.textContent = `${temp} °C`
     }
     else{
-        restemp.textContent="Please choose an option";
+        err.textContent="Please choose an option";
     }
 }
 /*animation8 about*/
