@@ -215,7 +215,7 @@ form{
     outline: none;
     border: none;
     color: red;
-    width: 50px;
+    width: 70px;
     &::placeholder{
         color: #c6c6c6;
         opacity: .7;
