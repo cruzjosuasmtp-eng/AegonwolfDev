@@ -203,7 +203,7 @@ function countChars() {
 
 function showmodal() {
   const modal1 = document.querySelector('.modal1-wrapper');
-  const showm = document.querySelector('showm');
+  const showm = document.querySelector('.showm');
 
   modal1.classList.toggle('active');
   showm.classList.toggle('active');
@@ -240,7 +240,11 @@ function btnSub(event){
     event.preventDefault();
     let inp = document.getElementById("inp").value;
     inp = Number(inp);
-
+    
+    if (isNaN(inp)){
+        restemp.textContent = "Please enter a valid number";
+        return;
+    }
     if(celto.checked){
       let temp = Math.ceil((inp * 9/5) + 32);
      restemp.textContent = `${temp} °F`;
@@ -250,6 +254,6 @@ function btnSub(event){
         restemp.textContent = `${temp} °C`
     }
     else{
-        restemp.textContent="Please enter the temperature";
+        restemp.textContent="Please enter the your option";
     }
 }
