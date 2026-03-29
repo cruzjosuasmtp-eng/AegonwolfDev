@@ -48,6 +48,9 @@ body{
     z-index:-1;
     
 }
+.vidp1{
+    display:none;
+}
 .nav-wrapper{
    width:100%;
   display: flex;
