@@ -16,12 +16,16 @@
     overflow:hidden;
     
 }
-.vidp{
+.vidp1{
     position: absolute;
     z-index:-1;
     height:115vh;
+    display:block;
     
 }   
+.vidp{
+    display:none;
+}
 
 /* mobile home */
 .mobile-nav{
