@@ -46,7 +46,7 @@ body{
 .vidp{
     position: absolute;
     z-index:-1;
-    
+    diaplay:block;
 }
 .vidp1{
     display:none;
