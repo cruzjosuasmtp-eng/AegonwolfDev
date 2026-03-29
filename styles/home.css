@@ -165,7 +165,7 @@ body{
    align-items: center;
    position: relative;
      z-index:999;
-   
+   display:none;
 }
 #timer{
     font-size: clamp(3rem, 7vw , 6rem);
